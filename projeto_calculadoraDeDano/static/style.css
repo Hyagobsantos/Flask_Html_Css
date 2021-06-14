@@ -1,0 +1,111 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  color: #fbfbfb;
+  font-weight: lighter;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  background-image: url(../static/img/1079546.png);
+  background-position: left;
+  background-position: fixed;
+}
+body img {
+  width: 60px;
+  height: auto;
+}
+
+.calculadora-dano {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+  border: 5px solid #e70707;
+  box-shadow: 9px 1px 8px #020211;
+  background-color: #181616;
+}
+
+.linha-container {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.elementos-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.elemento_oni {
+  width: 200px;
+}
+
+.elemento {
+  cursor: pointer;
+}
+
+.elemento p {
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+  width: 170px;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+button:hover {
+  width: 170px;
+  height: 50px;
+  background-color: #ff0101;
+  color: #000;
+  padding: 15px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-decoration: wavy;
+  transition: 0.2s ease-in;
+}
+
+.selecionado {
+  border: 2px solid blue;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#dano {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.elementos-container img {
+  width: 150px;
+  height: auto;
+}
+.elementos-container img:hover {
+  width: 180px;
+  height: auto;
+ 
+}
+
+.logo img {
+  width: 170px;
+  height: auto;
+  margin: 10px 10px;
+}
+
