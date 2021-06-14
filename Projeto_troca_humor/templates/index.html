@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projeto Troca Humor</title>
+    <link rel="stylesheet" href="static/style.css"/> <!--Isso é sempre padrão-->
+</head>
+<body>
+   <div class="principal">
+       <div class="principal-texto"><b>Nome:</b>{{nome}}</div>
+       <div class="principal-texto"><b>Idade:</b>{{idade}}</div>
+       <div class="principal-texto"><b>Profissão:</b>{{ocupacao}}</div>
+
+       {% if exibir_img %}
+            <div class="principal-image">
+                <img src="{{image1}}" width="200" alt="imagem" />
+                <p> O {{nome}} está Feliz</p>
+            </div>
+        {%else%}
+        <div class="principal-image">
+            <img src="{{image2}}" width="200" alt="imagem" />
+            <p> O {{nome}} está Triste</p>
+        </div>
+       {%endif%}
+   </div>
+</body>
+</html>
+
+
+

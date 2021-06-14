@@ -1,0 +1,16 @@
+body{
+      background-color: teal;
+      font-family: "Verdana", sans-serif;
+}
+
+.titulo{
+        font-weight: bold;
+        color: white;
+}
+
+#nome{
+
+    font-weight: 400;
+    color:lawngreen
+
+}
