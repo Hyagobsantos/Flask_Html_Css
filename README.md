@@ -9,5 +9,5 @@
 **2-** Projeto Troca de Humor ✔️
 
 
-###### tags: `projeto` `módulo 2` `BlueEdtech` `ptyhon`
+###### tags: `projeto` `módulo 2` `BlueEdtech` `ptyhon` `javaScript` 
 
