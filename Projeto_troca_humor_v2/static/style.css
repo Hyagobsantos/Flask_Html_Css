@@ -1,0 +1,76 @@
+body{
+    background-image: url("img/simpsons-couch.jpg");
+      font-family: "Verdana", sans-serif;
+}
+
+.titulo{
+        font-weight: bold;
+        color: white;
+}
+
+#img1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#img2{
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+/* .principal-image{
+    text-align: center;
+    margin-bottom: 20px;
+} */
+
+.principal{
+    width: 300px;
+    box-shadow: 2px 2px 8px black;
+    margin: 0px auto;
+    padding-top: -50px;
+    text-align: center;
+    margin-top: 2px;
+    
+}
+
+.principal-corpo{
+    margin-top: 45px;
+}
+
+#img1 p {
+    font-size: 20px;
+    display: flex;
+    font-weight: 800;
+    width: 500px;
+    color: rgb(7, 7, 7);
+    margin: 28px auto;
+    padding-left: 200px;
+   
+}
+
+#img2 p {
+    font-size: 20px;
+    display: flex;
+    font-weight: 800;
+    width: 500px;
+    color: rgb(7, 7, 7);
+    margin: 28px auto;
+    padding-left: 200px;
+   
+}
+#botao{
+    background-color: #f4f803;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 0px 890px;
+    border-radius: 30px;
+    
+  }

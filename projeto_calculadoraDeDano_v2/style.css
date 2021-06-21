@@ -1,0 +1,64 @@
+body {
+	font-family: 'Verdana', sans-serif;
+    background-image: url(img/1079546.png);
+}
+
+.logo img {
+    width: 170px;
+    height: auto;
+    margin: 10px 10px;
+  }
+
+.calculadora-dano {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 4px solid #f50000;
+    border-radius: 20px;
+    background-color: #313131;
+}
+
+.linha-container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.elementos-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.elemento {
+    cursor: pointer;
+}
+
+.elemento p {
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(253, 7, 7);
+    border: none;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.selecionado {
+    border: 5px solid rgb(230, 6, 6);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#dano {
+    font-size: medium;
+    font-weight: bold;
+}
