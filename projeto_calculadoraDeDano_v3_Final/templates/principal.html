@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora de Dano - RPG</title>
+        <link rel="stylesheet" type="text/css" href="../static/style.css" />
+        <script src="../static/index.js"></script>
+        <meta charset="utf-8"> 
+    </head>
+    <body onload="iniciar()">
+        <div id="blue">
+            <img src="../static/img/logo-blue.gif" alt="logo_BLue">
+        </div>
+        <div class="logo">
+            <img src="{{logo}}" alt="logo">
+        </div>
+        <div class="calculadora-dano">
+            <div class="linha-container">
+                <h1 class="titulo pula-linha">{{titulo}}</h1>
+            </div>
+
+            <div class="linha-container">
+                <h2>{{subtitulo1}}</h2>
+            </div>
+           
+            <div class="elementos-container">
+                {% for imagem1 in imagens_bloco1%}
+                <div class="elemento {{imagem1.class}}" id="{{imagem1.id}}">
+                    <img src="{{imagem1.imagem}}" alt="{{imagem1.titulo}}" width="200" height="200" />
+                    <p>{{imagem1.titulo}}</p>
+                </div>
+                {% endfor %}
+            </div>
+            
+
+            <div class="linha-container">
+                <h2>{{subtitulo2}}</h2>
+            </div>
+            
+            <div class="elementos-container">
+                {% for imagem2 in imagens_bloco2%}
+                <div class="elemento {{imagem2.class}} " id="{{imagem2.id}}">
+                    <img src="{{imagem2.imagem}}" alt="{{imagem2.titulo}}" width="200" height="200" />
+                    <p>{{imagem2.titulo}}</p>
+                </div>
+                {% endfor %}
+            </div>
+            
+
+            <div class="linha-container">
+                <button id="calcular" type="button">Calcular Dano</button>
+            </div>
+
+            <div class="linha-container">
+                <span id="dano"></span>
+            </div>
+        </div>
+    </body>
+</html>
